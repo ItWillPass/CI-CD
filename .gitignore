@@ -1,0 +1,39 @@
+# Игнорируем каталоги и файлы, создаваемые IDE и редакторами
+.vscode/
+.idea/
+*.iml
+
+# Игнорируем временные файлы системы
+.DS_Store
+Thumbs.db
+
+# Игнорируем файлы логов
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Игнорируем зависимости
+node_modules/
+vendor/
+
+# Игнорируем файлы кэша и сборки
+dist/
+build/
+out/
+.cache/
+
+# Игнорируем файлы виртуальных сред (Python)
+venv/
+__pycache__/
+
+# Игнорируем файлы конфигурации и секретные данные
+.env
+*.env.local
+*.env.production
+config.json
+credentials.json
+
+# Игнорируем файлы Git
+.git/
